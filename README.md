@@ -89,14 +89,22 @@ This project has been deployed to GitHub Pages. To get this project up and runni
     ![Alt text](coolers.png)
 
 ## This project has media Queries for:
-* max-width: 980px
-    + Adjusts body and container width
 * max-width: 786px
     + Adjusts body and container width
     + Adjusts buttons
 * max-width: 640px
     + Adjusts body and container width
     + Adjusts buttons and text
+* min-width: 600px
+    + Adjusts body and container width
+    + Adjusts buttons and text
+* max-width: 530px
+    + Adjusts body and container width
+    + Adjusts buttons and text
+* max-width: 480px
+    + Adjusts body and container width
+    + Adjusts buttons and text
+
 
 ## Features:
 * Four HTML Pages

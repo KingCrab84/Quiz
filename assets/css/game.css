@@ -102,6 +102,14 @@
         font-size: 1.5rem;
         min-width: 46rem;
     } 
+    
+    .correct {
+        background-color: rgb(93, 10, 248);
+    }
+    
+    .incorrect {
+        background-color: rgb(250, 0, 0);
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -114,4 +122,12 @@
         font-size: 2rem;
         min-width: 38rem;
     } 
+    
+    .correct {
+        background-color: rgb(93, 10, 248);
+    }
+    
+    .incorrect {
+        background-color: rgb(250, 0, 0);
+    }
 }
