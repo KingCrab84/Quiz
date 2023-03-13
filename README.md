@@ -8,22 +8,23 @@ This project has been deployed to GitHub Pages. To get this project up and runni
 
 # Table of Contents
 * [UX](#ux "UX")
-    * [Summary](#Summary "Summary")
-    * [Following Features](#This-project-has-the-following-features "This project has the following features")
+    * [Summary](#summary "Summary")
+    * [Following Features](#this-project-has-the-following-features "This project has the following features")
     * [Psuedo code](#pseudo-code)
-    * [Script Features](#This-project-has-script-features-of)
+    * [Script Features](#this-project-has-script-features-of)
     * [Design Choices](#design-choices)
         * [Fonts](#fonts)
         * [Icons](#icons)
         * [Colours](#colours)
-        
-    * [Media Queries](#Media-Queries)
-    * [Features](#Features)
-    * [Credits](#Credits)
+    * [Languages](#languages)
+    * [Tools](#tools)
+    * [Libraries](#libraries)
+    * [Media Queries](#media-Queries)
+    * [Features](#features)
+    * [Deplyment](#deployment)
+    * [Credits](#credits)
 
-    * [Technologies Used]
-        * [Languages](#languages)
-        * [Tools and Libraries](#tools-and-libraries)
+
     * [Testing](#testing)
         * [Unfixed Bugs](#unfixed-bugs)
     * [Deployment](#deployment)
@@ -143,6 +144,16 @@ This project has been deployed to GitHub Pages. To get this project up and runni
 [Back to Top](#table-of-contents)
 \
 &nbsp;
+
+## Deployment
+Following writing the code then commiting and pushing to GitHub, this project was deployed using GitHub by the following steps.
+
+* Navigate to the repository on github and click 'Settings'.
+* Then select 'Pages' on the side navigation.
+* Select the 'None' dropdown, and then click 'main'.
+* Click on the 'Save' button.
+* Now the website is now live on https://kingcrab84.github.io/full-template-asianfood/
+* If any changes are required, they can be done, commited and pushed to GitHub and the changes will be updated.
 
 ## Credits
 For code inspiration, help and advice:
