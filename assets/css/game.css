@@ -99,3 +99,28 @@
         background-color: rgb(250, 0, 0);
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .choice-container {
+        display: flex;
+        margin-bottom: 0.8rem;
+        width: 100%;
+        border-radius: 4px;
+        background: rgb(44, 209, 38);
+        font-size: 1.5rem;
+        min-width: 30rem;
+    }
+        
+    #progressBar {
+        width: 20rem;
+        height: rem;
+        border: 0.3rem solid #ed254eff;
+        margin-top: 1.5rem;
+    }
+    
+    #progressBarFull {
+        height: 3.4rem;
+        background-color: #ed254eff;
+        width: 0%;
+    }    
+}
