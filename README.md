@@ -41,8 +41,9 @@ This project has been deployed to GitHub Pages. To get this project up and runni
 * A Start Quiz button
 * An appended HTML page that features questions, and multiple choice answers.
     + Answers are recording using an event listener, "click" and tracks correct answers.
+    + Progressbar to keep track on how many questions left
 * An appended HTML page that features:
-    + Final score which is calculated using time remaining
+    + Final score
     + A Summary of how many questions answered correctly
     + Input area to record initials
     + A Submit button
