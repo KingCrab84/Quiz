@@ -21,6 +21,7 @@ This project has been deployed to GitHub Pages. To get this project up and runni
     * [Features](#Features)
     * [Credits](#Credits)
 
+    * [Technologies Used]
         * [Languages](#languages)
         * [Tools and Libraries](#tools-and-libraries)
     * [Testing](#testing)
@@ -117,6 +118,31 @@ This project has been deployed to GitHub Pages. To get this project up and runni
     * if/else if statements 
     * For Loops * Functions 
     * Local Storage set and get
+
+## Languages
+* [HTML](https://en.wikipedia.org/wiki/HTML "HTML")
+* [CSS](https://en.wikipedia.org/wiki/CSS "CSS")
+* [JS](https://sv.wikipedia.org/wiki/Javascript "JS")
+
+## Libraries
+* [Font Awesome library](https://fontawesome.com/ "Font Awesome")
+* [Open Trivia DB](https://opentdb.com/ "Open Trivia DB")
+
+## Tools
+* [Gitpod](https://www.gitpod.io/ "Gitpod")
+* [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
+* [Font Awesome library](https://fontawesome.com/ "Font Awesome")
+* [Google Fonts](https://fonts.google.com/ "Google Fonts")
+* [Coolors](https://www.coolors.co/image-picker/ "Coolors")
+* [W3Schools](https://www.w3schools.com/ "W3Schools")
+* [Google](https://www.google.com/ "Google")
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
 
 ## Credits
 For code inspiration, help and advice:
