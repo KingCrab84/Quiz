@@ -72,3 +72,32 @@ h3 {
     background: #ed254eff;
     border-radius: 3rem;
 }
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(237, 37, 78, 0.7);
+    transition: transform 150ms;
+    transition: scale(1.03);
+}
+
+.btn [disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+#highscore-btn {
+    background: #465362ff;
+}
+
+#highscore-btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(70, 83, 98, 1);
+    transition: transform 150ms;
+    transition: scale(1.03);
+}
+
+.fa-star {
+    font-size: 3rem;
+    margin-left: 1rem;
+}
