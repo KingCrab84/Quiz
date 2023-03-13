@@ -60,4 +60,42 @@
     width: 0%;
 }
 
- 
+@media only screen and (max-width: 786px) {
+    .choice-container {
+        display: flex;
+        margin-bottom: 0.8rem;
+        width: 100%;
+        border-radius: 4px;
+        background: rgb(44, 209, 38);
+        font-size: 2rem;
+        min-width: 70rem;
+    }
+
+    .correct {
+        background-color: rgb(93, 10, 248);
+    }
+    
+    .incorrect {
+        background-color: rgb(250, 0, 0);
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .choice-container {
+        display: flex;
+        margin-bottom: 0.8rem;
+        width: 100%;
+        border-radius: 4px;
+        background: rgb(44, 209, 38);
+        font-size: 2rem;
+        min-width: 50rem;
+    }
+
+    .correct {
+        background-color: rgb(93, 10, 248);
+    }
+    
+    .incorrect {
+        background-color: rgb(250, 0, 0);
+    }
+}
