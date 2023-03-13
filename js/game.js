@@ -1,3 +1,4 @@
+//window.localStorage.removeItem('highScores');
 const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName("choice-text"));
 const progressText = document.getElementById("progressText")
@@ -15,8 +16,22 @@ fetch("https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=mul
         return res.json();
     })
     .then(loadedQuestions => {
-        console.log(loadedQuestions);
-        questions = loadedQuestions;
+        questions = loadedQuestions.results.map( loadedQuestions => {
+            const formattedQuestion = {
+                question: loadedQuestions.question
+            };
+           
+            const answerChoices = [...loadedQuestions.incorrect_answers];
+            formattedQuestion.answer = Math.floor(Math.random() * 3) + 1;
+            answerChoices.splice(formattedQuestion.answer - 1, 0, loadedQuestions.correct_answer);
+
+            answerChoices.forEach((choice, index) => {
+            formattedQuestion["choice" + (index + 1)] = choice;
+            });
+
+            return formattedQuestion;
+        });
+        console.log(loadedQuestions)
         startGame();
     })
     .catch(err => {
@@ -38,7 +53,7 @@ const getNewQuestion = () => {
         localStorage.setItem('mostRecentScore', score)
         return window.location.assign("end.html");
     };
-
+    
     questionCounter++;
     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
 
@@ -68,10 +83,10 @@ choices.forEach(choice => {
         const classToApply = 
             selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
 
-        if(classToApply == "correct") {
+        if(classToApply === "correct") {
             incrementScore(CORRECT_BONUS);
         }
-    
+
         selectedChoice.parentElement.classList.add(classToApply);
 
         setTimeout(() => {
