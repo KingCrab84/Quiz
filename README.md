@@ -49,16 +49,9 @@ This project has been deployed to GitHub Pages. To get this project up and runni
     + Go back button travels to the start of the quiz
 
 ## Psuedo code:
-* Create a timer attached to a button with a starting value of 0
-* When timer is pressed start a reverse countdown
-* Create a 0 for countdown
-* When countdown starts, start quiz
-* Start Quiz will be on appended page
-* Append the question: choices
 * When user selects the right answer, color purple shows on the tab
 * When user selects the right answer, color red shows on the tab
 * Final score will keep track of how many the user got right
-* Left over time will be deducted from final score
 * Final Score Appended page
 * Captures local storage
 * Travels to another HTML
@@ -67,10 +60,9 @@ This project has been deployed to GitHub Pages. To get this project up and runni
 ## Script features:
 * Questions contained in an array variable with objects
 * Variable declaration area
-* An event listener (onclick) that generates time interval
-* A function to render the questions and choices on the page using a for loop
+* An event listener (onclick)
+* A fetch api function to render the questions and choices on the page using a for loop
 * An event listener on all list choices
-* A comparison statement to compare correct answers to choices
 * An appended page showing the final stats of the individual user with input area for initials, captures local storage
 * Highscores retreived local storage
 
@@ -101,6 +93,7 @@ This project has been deployed to GitHub Pages. To get this project up and runni
 * max-width: 640px
     + Adjusts body and container width
     + Adjusts buttons and text
+
 ## Features:
 * Four HTML Pages
     + Index.html
@@ -108,11 +101,22 @@ This project has been deployed to GitHub Pages. To get this project up and runni
         * Highscores page
 * Highscores 
     + Retreives local data from previous page
-* One CSS Page
+* Three CSS Page
     + Styles.css
         * Contains centering and styling for html list features
         * Contains media queries
-* Two Javascript Page * Contains: * Variables, including arrays with object * Event listeners * if/else if statements * For Loops * Functions * Local Storage set and get
+    + Game CSS Page
+        * Contains centering and styling for html list features
+        * Contains media queries
+    + Highscores CSS Page
+        * Contains centering and styling for html list features
+* Three Javascript Page 
+    * Contains: 
+    * Variables, including arrays with object 
+    * Event listeners 
+    * if/else if statements 
+    * For Loops * Functions 
+    * Local Storage set and get
 
 ## Credits
 For code inspiration, help and advice:
