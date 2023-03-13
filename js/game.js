@@ -10,3 +10,10 @@ let availableQuestions = [];
 
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 5;
+
+const startGame = () => {
+    questionCounter = 0;
+    score = 0;
+    availableQuestions = [...questions];
+    getNewQuestion();
+}; 
