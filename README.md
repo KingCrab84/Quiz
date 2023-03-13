@@ -21,11 +21,12 @@ This project has been deployed to GitHub Pages. To get this project up and runni
     * [Libraries](#libraries)
     * [Media Queries](#media-Queries)
     * [Features](#features)
+    * [Testing](#testing)
     * [Deplyment](#deployment)
     * [Credits](#credits)
 
 
-    * [Testing](#testing)
+
         * [Unfixed Bugs](#unfixed-bugs)
     * [Deployment](#deployment)
 # UX
@@ -113,12 +114,13 @@ This project has been deployed to GitHub Pages. To get this project up and runni
     + Highscores CSS Page
         * Contains centering and styling for html list features
 * Three Javascript Page 
-    * Contains: 
-    * Variables, including arrays with object 
-    * Event listeners 
-    * if/else if statements 
-    * For Loops * Functions 
-    * Local Storage set and get
+    * Contains variables, including arrays with object 
+    * Contains event listeners 
+    * Contains if/else if statements 
+    * Contains for Loops 
+    * Contains fetching Trivia API
+    * Contains functions 
+    * Contains Local Storage set and get
 
 ## Languages
 * [HTML](https://en.wikipedia.org/wiki/HTML "HTML")
@@ -145,6 +147,30 @@ This project has been deployed to GitHub Pages. To get this project up and runni
 \
 &nbsp;
 
+## Testing
+
+I feel that the site has hit the goals required by all parties. The site responds nicely to different screen sizes.
+
+I have encountered several issues during testing. 
+
+ + Initially used px for text, but it didn't follow proportions during screen resizing. I learned to use double reset for responsive text and easier calculation of rem sums.
+ + Had trouble centering navbar with text-align center, so changed div to flex display with justify content set to center. 
+ + Wanted 2-column, aligned picture layout for "Latest Recipes" section. Solved it using flex display.
+ + Made pictures interactive with animation using hover pseudoclass and changing transition time and opacity.
+ + Tried using FontAwesome icons, but CSS link didn't work. Found alternative from W3Schools, but some icons have outdated design. 
+ + Learned during testing the validator, certain rules/guidance applies, such as sections must contain headers among them.
+ 
+    - HTML (index.html) validator [results](assets/images/readmeimg/valid_index.jpg) "W3C HTML")
+    - HTML (recipe.html) validator [results](assets/images/readmeimg/valid_recipe.jpg) "W3C HTML")
+    - HTML (gallery.html) validator [results](assets/images/readmeimg/valid_gallery.jpg) "W3C HTML")
+    - CSS validator [results](assets/images/readmeimg/valid_css.jpg) "W3C CSS")
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
 ## Deployment
 Following writing the code then commiting and pushing to GitHub, this project was deployed using GitHub by the following steps.
 
@@ -154,6 +180,12 @@ Following writing the code then commiting and pushing to GitHub, this project wa
 * Click on the 'Save' button.
 * Now the website is now live on https://kingcrab84.github.io/full-template-asianfood/
 * If any changes are required, they can be done, commited and pushed to GitHub and the changes will be updated.
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
 
 ## Credits
 For code inspiration, help and advice:
