@@ -73,7 +73,7 @@ This project has been deployed to GitHub Pages. To get this project up and runni
 ## Design Choices
 * Fonts
     + I have used Google Fonts to find a text that best seems fun and enjoyable. Bowlby One SC was chosen.
-    ![Alt text](googlefont.png)
+    ![Responsive Displays](googlefont.png)
 * Icons
     + I used some icons from the Font Awesome library. A star highlighting the highscores button. 
 * Colours
@@ -86,7 +86,7 @@ This project has been deployed to GitHub Pages. To get this project up and runni
     #2cd126 - This color will be used on the tabs form in the game.
     #5d0af8 - When clicked the right answer this color will be shown. 
     #fa0000 - When clicked the wrong answer this color will be shown. 
-    ![Alt text](coolers.png)
+    ![Responsive Displays](coolers.png)
 
 ## This project has media Queries for:
 * max-width: 786px
@@ -161,14 +161,14 @@ This project has been deployed to GitHub Pages. To get this project up and runni
 I feel that the site has hit the goals required by all parties. The site responds nicely to different screen sizes.
 
 I have encountered several issues during testing. 
- 
-    - HTML (index.html) validator [results](/assets/pics/index_html.png) "W3C HTML"
-    - HTML (game.html) validator [results](/assets/pics/game_html.png) "W3C HTML"
-    - HTML (end.html) validator [results](/assets/pics/end_html.png) "W3C HTML"
-    - HTML (highscores.html) validator [results](/assets/pics/highscores_html.png) "W3C HTML"
-    - CSS (style.html) validator [results](/assets/pics/game_css_val.png) "W3C CSS"
-    - CSS (game.html) validator [results](/assets/pics/game_css_val.png) "W3C CSS"
-    - CSS (highscores.html) validator [results](/assets/pics/game_css_val.png) "W3C CSS"
+
+* HTML (index.html) validator [results](/assets/pics/index_html_val.png) "W3C HTML"
+* HTML (game.html) validator [results](/assets/pics/game_html_val.png) "W3C HTML"
+* HTML (end.html) validator [results](/assets/pics/end_html.val.png) "W3C HTML"
+* HTML (highscores.html) validator [results](/assets/pics/highscores_html_val.png) "W3C HTML"
+* CSS (style.html) validator [results](/assets/pics/game_css_val.png) "W3C CSS"
+* CSS (game.html) validator [results](/assets/pics/game_css_val.png) "W3C CSS"
+* CSS (highscores.html) validator [results](/assets/pics/game_css_val.png) "W3C CSS"
 
 \
 &nbsp;
