@@ -1,0 +1,34 @@
+[
+    {
+        "question": "What skateboard blue?",
+        "choice1": "orange",
+        "choice2": "blue",
+        "choice3": "yellow",
+        "choice4": "green",
+        "answer":  2
+    },
+    {
+        "question": "What skateboard2 blue?",
+        "choice1": "orange",
+        "choice2": "blue",
+        "choice3": "yellow",
+        "choice4": "green",
+        "answer":  2
+    },
+    {
+        "question": "What skateboard3 blue?",
+        "choice1": "orange",
+        "choice2": "blue",
+        "choice3": "yellow",
+        "choice4": "green",
+        "answer":  2
+    },
+    {
+        "question": "What skateboard4 blue?",
+        "choice1": "orange",
+        "choice2": "blue",
+        "choice3": "yellow",
+        "choice4": "green",
+        "answer":  2
+    }
+]

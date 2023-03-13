@@ -10,6 +10,19 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 
+fetch("questions.json")
+    .then(res => {
+        return res.json();
+    })
+    .then(loadedQuestions => {
+        console.log(loadedQuestions);
+        questions = loadedQuestions;
+        startGame();
+    })
+    .catch(err => {
+        console.error(err);
+    });
+
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 5;
 
