@@ -161,18 +161,14 @@ This project has been deployed to GitHub Pages. To get this project up and runni
 I feel that the site has hit the goals required by all parties. The site responds nicely to different screen sizes.
 
 I have encountered several issues during testing. 
-
- + Initially used px for text, but it didn't follow proportions during screen resizing. I learned to use double reset for responsive text and easier calculation of rem sums.
- + Had trouble centering navbar with text-align center, so changed div to flex display with justify content set to center. 
- + Wanted 2-column, aligned picture layout for "Latest Recipes" section. Solved it using flex display.
- + Made pictures interactive with animation using hover pseudoclass and changing transition time and opacity.
- + Tried using FontAwesome icons, but CSS link didn't work. Found alternative from W3Schools, but some icons have outdated design. 
- + Learned during testing the validator, certain rules/guidance applies, such as sections must contain headers among them.
  
-    - HTML (index.html) validator [results](assets/images/readmeimg/valid_index.jpg) "W3C HTML")
-    - HTML (recipe.html) validator [results](assets/images/readmeimg/valid_recipe.jpg) "W3C HTML")
-    - HTML (gallery.html) validator [results](assets/images/readmeimg/valid_gallery.jpg) "W3C HTML")
-    - CSS validator [results](assets/images/readmeimg/valid_css.jpg) "W3C CSS")
+    - HTML (index.html) validator [results](/assets/pics/index_html.png) "W3C HTML"
+    - HTML (game.html) validator [results](/assets/pics/game_html.png) "W3C HTML"
+    - HTML (end.html) validator [results](/assets/pics/end_html.png) "W3C HTML"
+    - HTML (highscores.html) validator [results](/assets/pics/highscores_html.png) "W3C HTML"
+    - CSS (style.html) validator [results](/assets/pics/game_css_val.png) "W3C CSS"
+    - CSS (game.html) validator [results](/assets/pics/game_css_val.png) "W3C CSS"
+    - CSS (highscores.html) validator [results](/assets/pics/game_css_val.png) "W3C CSS"
 
 \
 &nbsp;
