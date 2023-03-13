@@ -50,5 +50,10 @@ choices.forEach(choice => {
             selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
 
         selectedChoice.parentElement.classList.add(classToApply);
+
+        setTimeout(() => {
+            selectedChoice.parentElement.classList.remove(classToApply);    
+            getNewQuestion();
+        }, 1000);
     });
 });
