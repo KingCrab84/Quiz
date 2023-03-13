@@ -140,8 +140,7 @@ input::placeholder {
     }
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
     h1 {
         font-size: 3rem;
         color: black;
@@ -149,7 +148,7 @@ input::placeholder {
     }
     
     h2 {
-        font-size: 1.2rem;
+        font-size: 2.2rem;
         margin-bottom: 4rem;
     }
     
@@ -167,10 +166,9 @@ input::placeholder {
         box-shadow: 0 0.1rem 1.4rem 0 rgba(237, 37, 78, 0.7)
     }
 }
-
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 530px) {
     h1 {
-        font-size: 3rem;
+        font-size: 2rem;
         color: black;
         margin-bottom: 5rem;
     }

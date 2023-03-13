@@ -67,16 +67,8 @@
         width: 100%;
         border-radius: 4px;
         background: rgb(44, 209, 38);
-        font-size: 2rem;
-        min-width: 70rem;
-    }
-
-    .correct {
-        background-color: rgb(93, 10, 248);
-    }
-    
-    .incorrect {
-        background-color: rgb(250, 0, 0);
+        font-size: 2.2rem;
+        min-width: 80rem;
     }
 }
 
@@ -100,27 +92,26 @@
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 530px) {
     .choice-container {
         display: flex;
         margin-bottom: 0.8rem;
-        width: 100%;
+        width: 70%;
         border-radius: 4px;
         background: rgb(44, 209, 38);
         font-size: 1.5rem;
-        min-width: 30rem;
-    }
-        
-    #progressBar {
-        width: 20rem;
-        height: rem;
-        border: 0.3rem solid #ed254eff;
-        margin-top: 1.5rem;
-    }
-    
-    #progressBarFull {
-        height: 3.4rem;
-        background-color: #ed254eff;
-        width: 0%;
-    }    
+        min-width: 46rem;
+    } 
+}
+
+@media only screen and (max-width: 480px) {
+    .choice-container {
+        display: flex;
+        margin-bottom: 0.8rem;
+        width: 58%;
+        border-radius: 4px;
+        background: rgb(44, 209, 38);
+        font-size: 2rem;
+        min-width: 38rem;
+    } 
 }
