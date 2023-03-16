@@ -1,14 +1,16 @@
 //window.localStorage.removeItem('highScores');
-const question = document.getElementById("question");
-const choices = Array.from(document.getElementsByClassName("choice-text"));
-const progressText = document.getElementById("progressText")
-const scoreText = document.getElementById('score');
-const progressBarFull = document.getElementById('progressBarFull')
+const question = document.querySelector("#question");
+const choices = Array.from(document.querySelectorAll(".choice-text"));
+const progressText = document.querySelector("#progressText")
+const scoreText = document.querySelector('#score');
+const progressBarFull = document.querySelector('#progressBarFull')
 
-let currentQuestion = {};
-let acceptingAnswers = false;
+const CORRECT_BONUS = 10;
+const MAX_QUESTIONS = 5;
 let score = 0;
 let questionCounter = 0;
+let acceptingAnswers = false;
+let currentQuestion = {};
 let availableQuestions = [];
 
 fetch("https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=multiple")
@@ -36,9 +38,6 @@ fetch("https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=mul
     .catch(err => {
         console.error(err);
     });
-
-const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 5;
 
 const startGame = () => {
     questionCounter = 0;
