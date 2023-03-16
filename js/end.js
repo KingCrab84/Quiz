@@ -5,7 +5,7 @@ const mostRecentScore = window.localStorage["mostRecentScore"];
 const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
 
 const MAX_HIGH_SCORES = 5;
-finalScore.innerText = `Score: ${mostRecentScore}`;
+finalScore.innerHTML = `Score: ${mostRecentScore}`;
 
 try {
     var last_score = Number(highScores[highScores.length - 1]["score"]);

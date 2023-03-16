@@ -31,7 +31,6 @@ fetch("https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=mul
 
             return formattedQuestion;
         });
-        console.log(loadedQuestions)
         startGame();
     })
     .catch(err => {
@@ -55,17 +54,17 @@ const getNewQuestion = () => {
     };
     
     questionCounter++;
-    progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
+    progressText.innerHTML = `Question ${questionCounter}/${MAX_QUESTIONS}`;
 
     progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`; 
 
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
-    question.innerText = currentQuestion.question;
+    question.innerHTML = currentQuestion.question;
 
     choices.forEach(choice => {
         const number = choice.dataset["number"];
-        choice.innerText = currentQuestion["choice" + number];
+        choice.innerHTML = currentQuestion["choice" + number];
     });
 
     availableQuestions.splice(questionIndex, 1);
@@ -98,5 +97,5 @@ choices.forEach(choice => {
 
 const incrementScore = num => {
     score +=num;
-    scoreText.innerText = score;
+    scoreText.innerHTML = score;
 }
