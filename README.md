@@ -183,7 +183,7 @@ Following writing the code then commiting and pushing to GitHub, this project wa
 * Then select 'Pages' on the side navigation.
 * Select the 'None' dropdown, and then click 'main'.
 * Click on the 'Save' button.
-* Now the website is now live on https://kingcrab84.github.io/full-template-asianfood/
+* Now the website is now live on https://kingcrab84.github.io/Quiz/
 * If any changes are required, they can be done, commited and pushed to GitHub and the changes will be updated.
 
 \
@@ -198,14 +198,10 @@ For code inspiration, help and advice:
 * Che Long Tran
  
 For content and style insperation:
-* James Q Quick
-https://www.youtube.com/watch?v=u98ROZjBWy8&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=1
+* [James Q Quick](https://www.youtube.com/watch?v=u98ROZjBWy8&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=1 "James Q Quick")
 
 \
 &nbsp;
 [Back to Top](#table-of-contents)
 \
 &nbsp;
-
-
-fetch
