@@ -14,7 +14,7 @@ try {
 finally {
     if (last_score > Number(mostRecentScore) && highScores.length > 5) {
         username.style.display = "none";
-        saveScoreBtn.style.display = "none"
+        saveScoreBtn.style.display = "none";
     }
     username.addEventListener('keyup', () => {
         saveScoreBtn.disabled = !username.value; 

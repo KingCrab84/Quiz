@@ -1,9 +1,9 @@
 //window.localStorage.removeItem('highScores');
 const question = document.querySelector("#question");
 const choices = Array.from(document.querySelectorAll(".choice-text"));
-const progressText = document.querySelector("#progressText")
+const progressText = document.querySelector("#progressText");
 const scoreText = document.querySelector('#score');
-const progressBarFull = document.querySelector('#progressBarFull')
+const progressBarFull = document.querySelector('#progressBarFull');
 
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 5;
@@ -16,7 +16,7 @@ let availableQuestions = [];
 fetch("https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=multiple")
     .then(res => res.json())
     .then(loadedQuestions => {
-        questions = loadedQuestions.results.map( loadedQuestions => {
+        questions = loadedQuestions.results.map(loadedQuestions => {
             const formattedQuestion = {
                 question: loadedQuestions.question
             };
@@ -33,9 +33,7 @@ fetch("https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=mul
         });
         startGame();
     })
-    .catch(err => {
-        console.error(err);
-    });
+    .catch(err => console.error(err));
 
 const startGame = () => {
     questionCounter = 0;
@@ -46,9 +44,9 @@ const startGame = () => {
 
 const getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
-        localStorage.setItem('mostRecentScore', score)
+        localStorage.setItem('mostRecentScore', score);
         return window.location.assign("end.html");
-    };
+    }
     
     questionCounter++;
     progressText.innerHTML = `Question ${questionCounter}/${MAX_QUESTIONS}`;
@@ -95,4 +93,4 @@ choices.forEach(choice => {
 const incrementScore = num => {
     score +=num;
     scoreText.innerHTML = score;
-}
+};
