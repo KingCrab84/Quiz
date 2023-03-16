@@ -160,8 +160,6 @@ This project has been deployed to GitHub Pages. To get this project up and runni
 
 I feel that the site has hit the goals required by all parties. The site responds nicely to different screen sizes.
 
-I have encountered several issues during testing. 
-
 * HTML (index.html) validator [results](/assets/pics/index_html_val.png) "W3C HTML"
 * HTML (game.html) validator [results](/assets/pics/game_html_val.png) "W3C HTML"
 * HTML (end.html) validator [results](/assets/pics/end_html_val.png) "W3C HTML"
@@ -169,6 +167,11 @@ I have encountered several issues during testing.
 * CSS (style.html) validator [results](/assets/pics/game_css_val.png) "W3C CSS"
 * CSS (game.html) validator [results](/assets/pics/game_css_val.png) "W3C CSS"
 * CSS (highscores.html) validator [results](/assets/pics/game_css_val.png) "W3C CSS"
+* JS (game.js) validator [results](/assets/pics/js_game_val.png) "jshint.com"
+* JS (end.js) validator [results](/assets/pics/js_end_val.png) "jshint.com"
+* JS (highscores.js) validator [results](/assets/pics/js_highscores_val.png) "jshint.com"
+
+
 
 \
 &nbsp;
