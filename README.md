@@ -105,8 +105,17 @@ This project has been deployed to GitHub Pages. To get this project up and runni
 ## Features:
 * Four HTML Pages
     + Index.html
-        * Contains landing page to start timer
+        * Contains landing page to start game
         * Highscores page
+        ![Responsive Displays](/assets/pics/index_html.png)
+    + Game.html
+        ![Responsive Displays](/assets/pics/game_html.png)
+    + End.html
+        ![Responsive Displays](/assets/pics/end_html.png)
+    + Highscores.html
+        ![Responsive Displays](/assets/pics/highscores_html.png)
+
+
 * Highscores 
     + Retreives local data from previous page
 * Three CSS Page
