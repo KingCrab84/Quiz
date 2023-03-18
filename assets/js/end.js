@@ -7,12 +7,14 @@ const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
 const MAX_HIGH_SCORES = 5;
 finalScore.innerHTML = `Score: ${mostRecentScore}`;
 
+let lastScore;
+
 try {
-    var last_score = Number(highScores[highScores.length - 1]["score"]);
+    lastScore = Number(highScores[highScores.length - 1]["score"]);
 }
 
 finally {
-    if (last_score > Number(mostRecentScore) && highScores.length > 5) {
+    if (lastScore > Number(mostRecentScore)) {
         username.style.display = "none";
         saveScoreBtn.style.display = "none";
     }
