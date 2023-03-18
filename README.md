@@ -144,11 +144,12 @@ This project has been deployed to GitHub Pages. To get this project up and runni
 * [Gitpod](https://www.gitpod.io/ "Gitpod")
 * [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
+* [JSHINT](https://www.jshint.com/ "JSHINT")
 * [Font Awesome library](https://fontawesome.com/ "Font Awesome")
 * [Google Fonts](https://fonts.google.com/ "Google Fonts")
 * [Coolors](https://www.coolors.co/image-picker/ "Coolors")
 * [W3Schools](https://www.w3schools.com/ "W3Schools")
-* [Google](https://www.google.com/ "Google")
+
 
 \
 &nbsp;
