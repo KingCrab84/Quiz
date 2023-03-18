@@ -1,7 +1,7 @@
-const username = document.getElementById("username");
-const saveScoreBtn = document.getElementById("saveScoreBtn");
-const finalScore = document.getElementById("finalScore");
-const mostRecentScore = window.localStorage["mostRecentScore"];
+const username = document.querySelector("#username");
+const saveScoreBtn = document.querySelector("#saveScoreBtn");
+const finalScore = document.querySelector("#inalScore");
+const mostRecentScore = localStorage["mostRecentScore"];
 const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
 
 const MAX_HIGH_SCORES = 5;
