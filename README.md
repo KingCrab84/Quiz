@@ -21,14 +21,9 @@ This project has been deployed to GitHub Pages. To get this project up and runni
     * [Libraries](#libraries)
     * [Media Queries](#media-Queries)
     * [Features](#features)
-    * [Testing](#testing)
-    * [Deplyment](#deployment)
-    * [Credits](#credits)
-
-
-
-        * [Unfixed Bugs](#unfixed-bugs)
+    * [Validator](#validator)
     * [Deployment](#deployment)
+    * [Credits](#credits)
 # UX
 
 
@@ -74,18 +69,20 @@ This project has been deployed to GitHub Pages. To get this project up and runni
 * Fonts
     + I have used Google Fonts to find a text that best seems fun and enjoyable. Bowlby One SC was chosen.
     ![Responsive Displays](/assets/pics/googlefont.png)
+    
 * Icons
     + I used some icons from the Font Awesome library. A star highlighting the highscores button. 
+
 * Colours
     + I have used Coolors to help in the selection of my colour scheme.
-    #f9dc5cff - This colour will be used as a background colour.
-    #ed254eff - This colour will be used as the starting button on the landing page and also the progressbar during the quizgame.
-    #000000 - This color will be used on all text.
-    #FFFFFF -  This color will only be used to highlight the alternative buttons for the questions.
-    #465362ff - This color will be used on the highscore button to separate from the play button.
-    #2cd126 - This color will be used on the tabs form in the game.
-    #5d0af8 - When clicked the right answer this color will be shown. 
-    #fa0000 - When clicked the wrong answer this color will be shown. 
+       +  #f9dc5cff - This colour will be used as a background colour.
+        + #ed254eff - This colour will be used as the starting button on the landing page and also the progressbar during the quizgame.
+        + #000000 - This color will be used on all text.
+        + #FFFFFF -  This color will only be used to highlight the alternative buttons for the questions.
+        + #465362ff - This color will be used on the highscore button to separate from the play button.
+        + #2cd126 - This color will be used on the tabs form in the game.
+        + #5d0af8 - When clicked the right answer this color will be shown. 
+        + #fa0000 - When clicked the wrong answer this color will be shown. 
     ![Responsive Displays](/assets/pics/coolers.png)
 
 ## This project has media Queries for:
@@ -104,7 +101,6 @@ This project has been deployed to GitHub Pages. To get this project up and runni
 * max-width: 480px
     + Adjusts body and container width
     + Adjusts buttons and text
-
 
 ## Features:
 * Four HTML Pages
@@ -148,7 +144,6 @@ This project has been deployed to GitHub Pages. To get this project up and runni
 * [Font Awesome library](https://fontawesome.com/ "Font Awesome")
 * [Google Fonts](https://fonts.google.com/ "Google Fonts")
 * [Coolors](https://www.coolors.co/image-picker/ "Coolors")
-* [W3Schools](https://www.w3schools.com/ "W3Schools")
 
 
 \
@@ -157,9 +152,7 @@ This project has been deployed to GitHub Pages. To get this project up and runni
 \
 &nbsp;
 
-## Testing
-
-I feel that the site has hit the goals required by all parties. The site responds nicely to different screen sizes.
+## Validator
 
 * HTML (index.html) validator [results](/assets/pics/index_html_val.png) "W3C HTML"
 * HTML (game.html) validator [results](/assets/pics/game_html_val.png) "W3C HTML"
